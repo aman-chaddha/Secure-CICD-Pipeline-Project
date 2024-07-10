@@ -5,23 +5,7 @@
 **Game Quest Database Full-Stack Web Application.**
 Game Quest is a comprehensive web application that allows users to explore, add, and review various games. Anyone can view the game lists and their reviews, but logging in is required to contribute new games or reviews. 'Users' can add games and write reviews, while 'managers' have the additional authority to edit or delete reviews. 
 
-## Technologies
 
-- Java
-- Spring Boot
-- Amazon Web Services(AWS) EC2
-- Thymeleaf
-- Thymeleaf Fragments
-- HTML5
-- CSS
-- JavaScript
-- Spring MVC
-- JDBC
-- H2 Database Engine (In-memory)
-- JUnit test framework
-- Spring Security
-- Twitter Bootstrap
-- Maven
 
 ## Features
 
