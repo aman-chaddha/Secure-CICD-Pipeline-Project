@@ -1,9 +1,9 @@
-# BoardgameListingWebApp
+# GameQuestListingWebApp
 
 ## Description
 
-**Board Game Database Full-Stack Web Application.**
-This web application displays lists of board games and their reviews. While anyone can view the board game lists and reviews, they are required to log in to add/ edit the board games and their reviews. The 'users' have the authority to add board games to the list and add reviews, and the 'managers' have the authority to edit/ delete the reviews on top of the authorities of users.  
+**Game Quest Database Full-Stack Web Application.**
+Game Quest is a comprehensive web application that allows users to explore, add, and review various games. Anyone can view the game lists and their reviews, but logging in is required to contribute new games or reviews. 'Users' can add games and write reviews, while 'managers' have the additional authority to edit or delete reviews. 
 
 ## Technologies
 
@@ -25,29 +25,19 @@ This web application displays lists of board games and their reviews. While anyo
 
 ## Features
 
-- Full-Stack Application
-- UI components created with Thymeleaf and styled with Twitter Bootstrap
-- Authentication and authorization using Spring Security
-  - Authentication by allowing the users to authenticate with a username and password
-  - Authorization by granting different permissions based on the roles (non-members, users, and managers)
-- Different roles (non-members, users, and managers) with varying levels of permissions
-  - Non-members only can see the boardgame lists and reviews
-  - Users can add board games and write reviews
-  - Managers can edit and delete the reviews
-- Deployed the application on AWS EC2
-- JUnit test framework for unit testing
-- Spring MVC best practices to segregate views, controllers, and database packages
-- JDBC for database connectivity and interaction
-- CRUD (Create, Read, Update, Delete) operations for managing data in the database
-- Schema.sql file to customize the schema and input initial data
-- Thymeleaf Fragments to reduce redundancy of repeating HTML elements (head, footer, navigation)
+Full-Stack Application with a user-friendly interface created using Thymeleaf and styled with Twitter Bootstrap.
+Secure authentication and authorization with Spring Security.
+Users authenticate using a username and password.
+Different roles (non-members, users, and managers) have varying permissions.
+Role-based access control:
+Non-members can view game lists and reviews.
+Users can add new games and write reviews.
+Managers can edit and delete reviews in addition to the capabilities of users.
+Deployment on AWS EC2 for scalable and reliable hosting.
+Comprehensive unit testing with JUnit to ensure code quality.
+Adherence to Spring MVC best practices for a clean separation of concerns in the application architecture.
+Efficient database interactions using JDBC and in-memory H2 Database Engine.
+CRUD operations for managing game data and reviews.
+Customizable schema and initial data setup using Schema.sql.
+Reusable Thymeleaf Fragments to maintain consistent and maintainable HTML elements (head, footer, navigation).
 
-## How to Run
-
-1. Clone the repository
-2. Open the project in your IDE of choice
-3. Run the application
-4. To use initial user data, use the following credentials.
-  - username: bugs    |     password: bunny (user role)
-  - username: daffy   |     password: duck  (manager role)
-5. You can also sign-up as a new user and customize your role to play with the application! 😊
